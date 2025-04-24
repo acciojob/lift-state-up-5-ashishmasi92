@@ -11,12 +11,12 @@ const App = () => {
   
 <div>
 <h1>Parent Component</h1>
-{isLoggedIn == true? (<p> You are logged in. </p>):<>
+{isLoggedIn == true? <p>You are logged in!</p>:
  
   <Parent
   isLogged={setIsLoggedIn}
   />
-</> }
+ }
     </div>    
   )
 }
