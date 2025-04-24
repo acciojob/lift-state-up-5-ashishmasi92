@@ -24,6 +24,7 @@ const Parent = ({isLogged})=>{
     e.preventDefault()
       if(!name && !password){
         alert("all field reqired")
+        return
       }
       
       isLogged(true)

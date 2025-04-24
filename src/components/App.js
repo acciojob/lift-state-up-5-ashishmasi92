@@ -10,8 +10,9 @@ const App = () => {
   return (
   
 <div>
-{isLoggedIn == true? (<h1>Welcome! You are logged in. </h1>):<>
-  <h1>Please log in</h1>
+<h1>Parent Component</h1>
+{isLoggedIn == true? (<p> You are logged in. </p>):<>
+ 
   <Parent
   isLogged={setIsLoggedIn}
   />
